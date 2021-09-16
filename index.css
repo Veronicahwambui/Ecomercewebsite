@@ -1,0 +1,484 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');  
+@import url('https://fonts.googleapis.com/css2?family=Benne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Benne&family=Dela+Gothic+One&family=Montserrat:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Benne&family=Montserrat:wght@800&display=swap');
+*{
+    top: 0%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: salmon;
+}
+header {
+    height: 15vh;
+    background: whitesmoke;
+    box-shadow: 3px 3px 5px 6px #ccc;
+    margin: 0%;
+}
+.pag {
+    height: 60px;
+    margin-left: 150px;
+    width: 60px;
+    margin-top: 15px;
+    margin: 0;
+}
+
+
+.logo 
+{
+    margin-left: 220px;
+    font-family: 'Montserrat',sans-serif;
+    margin-top: -45px;
+}
+.logo h4{
+    font-size: 24px;
+}
+nav ul{
+    float: right;
+    display: flex;
+    margin-right: 90px;
+}
+nav ul li
+{
+    padding: 0px 30px;
+    list-style: none;
+    margin-top: -25px;
+}
+nav ul li a
+{
+    font-family: 'Poppins',sans-serif;
+    text-decoration: none;
+    color: black;
+}
+ 
+
+nav ul li a:hover
+{
+    color: rgb(177,63,81);
+}
+.con
+{
+    margin-top: -25px;
+}
+.con a
+{
+    color: black;
+    padding: 0px 19px;
+}
+.main
+{
+    background: white;
+    width: 60%;
+    height: 100%;
+}
+.akira img
+{
+    height: 30%;
+    margin-top: -30px;
+    float: right;
+    width: 30%;
+}
+.love
+{
+    margin-top: 250px;
+    margin-left: 150px;
+}
+.love h5
+{
+    font-size: 20px;
+    line-height: 1;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.love h2{
+    font-size: 39px;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: bolder;
+    margin-top: 5px;
+}
+span
+{
+    color: plum;
+   
+}
+.love p
+{
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 500;
+    margin-top: 5px;
+    
+}
+.btn
+{
+    margin-left: 150px;
+    margin-top: 30px;
+}
+.btn a{
+    padding: 20px 40px;
+    background: black;
+    color:whitesmoke;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+    font-weight: bolder;
+}
+.btn a:hover
+{
+    background: rgb(177,63,81);
+}
+line{
+    background-color: bisque;
+    height: 2px;
+}
+
+/* /ABOUT */
+
+/* .Section{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #DDD;
+
+} */
+.HEAD{
+    display: flex;
+    justify-content: space-evenly;
+    margin: -3%;
+    width: 80%;
+    margin-bottom: 30%;
+    margin: auto;
+    /* padding-top: 100px;
+    margin-top: -80%; */
+
+}
+.content-section{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    margin:14%;
+}
+  .content{
+    text-align: left;
+    width: 55%;
+    margin-bottom: 60%;
+    font-size: 20px;
+    margin-left: 40px;
+  }
+  .Imagesection{
+     text-align: right;
+    width: 30%;
+  }
+  .Imagesection img{
+       width: 100%; 
+       /* height: auto; */
+  }  
+  /* section b */
+
+  .items{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 30px 20px;
+    grid-column-gap: 20px ;
+    grid-row-gap: 30px;
+    margin-top: -30%;
+   
+
+}
+.item img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: 0.2s ease-in;
+
+}
+.items :hover{
+    transform: scale(1.04);
+}
+.item{
+    padding:5px ;
+    text-align: center;
+}
+.item button{
+    padding: 5px 30px;
+    border: none;
+    outline: none;
+    background-color:pink;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 20px;
+    display: block;
+    margin:0 auto ;
+
+
+}
+.item button :hover{
+    transform: scale(1.08)
+    
+}
+@media screen and (max-width :100px) {
+    
+    .items{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media screen and (max-width :768px) {
+    
+    .items{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+/* //section c */
+hr{
+    background-color: rgb(140, 42, 165);
+    height: 10px;
+}
+
+
+.div{
+    margin: 30%;
+    margin-bottom: 60%px;
+}
+#pay{
+   text-align: center;
+   margin-right: 60px;
+   margin-bottom: 4%;
+}
+
+
+
+.shoe{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 30px 20px;
+    grid-column-gap: 20px ;
+    grid-row-gap: 30px;
+    margin-top: -2%;
+   
+
+}
+.item img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: 0.2s ease-in;
+
+}
+.item :hover{
+    transform: scale(1.04);
+}
+.item{
+    padding:5px ;
+    text-align: center;
+}
+.item button{
+    padding: 5px 30px;
+    border: none;
+    outline: none;
+    background-color:pink;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 20px;
+    display: block;
+    margin:0 auto ;
+
+
+}
+.vip{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom:100px;
+    text-align: center;
+    margin-top: -80px;
+}
+
+
+  
+ 
+  .head {
+    font-size: 20px;
+    text-align: center;
+ 
+  }
+@media screen and (max-width :100px) {
+    
+    .items{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media screen and (max-width :768px) {
+    
+    .items{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+/* contact */
+
+
+.info{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:#e66686;
+   }
+   .info .msg{
+    max-width: 400px;
+    text-align: center;
+   }
+   .info .msg h2{
+   font-size: 36px;
+   font-weight: 500;
+   color:white;
+   }
+   .info .msg p{
+    font-weight: 300;
+    color: #fff;
+   }
+   .sack{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+   }
+   .sack .contactInfo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+   }
+   .sack .contactInfo .box {
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+   }
+   .sack .contactInfo .box .icon{
+    min-width: 30px;
+    height: 30px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    font-size: 15px;
+   }
+   .sack .contactInfo .box .text{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #fff;
+    flex-direction: column;
+    font-weight: 300;
+   }
+   .sack .contactInfo .box .text h3{
+   font-weight: 500;
+   color: #00BCD4;
+   }
+   .contactform{
+    width: 40%;
+    padding: 40px;
+    background: #fff;
+   }
+   .contactform h2{
+    font-size: 20px;
+    color:#333;
+    font-weight:500 ;
+   }
+   .contactform .inputBox{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+   }
+   .contactform .inputBox input,
+   .contactform .inputBox textarea{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+   }
+   .contactform .inputBox  span{
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: burlywood;
+   }
+   .contactform .inputBox input:focus ~span,
+   .contactform .inputBox input:valid ~span
+   .contactform .inputBox textarea:focus ~span,
+   .contactform .inputBox textarea :valid ~span
+   {
+    color: #E91E63;
+    font-size: 15px;
+    transform: translateY(-20px);
+   }
+   .contactform .inputBox input[type="Submit" ]{
+    width: 100px;
+    cursor: pointer;
+    color: white;
+    background-color: #00BCD4;
+    padding: 10px;
+    font-size: 18px;
+    border: 50px;
+   }
+   footer{
+    background:black ;
+    color: lightgrey;
+    font-family: "Roboto",sans-serif;
+    padding: 5px 20px;
+    position: relative;
+
+   }
+   footer a{
+    color: lightpink;
+    text-decoration: none;
+   }
+   a:hover{
+    text-decoration: none;
+   }
+   .sack{
+    display: flex;
+    
+   }
+    
+   ul{
+    list-style: none;
+    margin-top: 16px;
+   }
+   .reverse{
+    padding-right:100px;
+    border-right: 1px solid#c4c4c4;
+   }
+   .trend{
+    padding-left: 100px;
+   }
+   .icons{
+    margin-top: 16px;
+    text-decoration: none;
+    margin: 0 16px;
+    margin-left: 0;
+    padding-top: 100px;  padding-top:50px ;
+   
+    font-size: 20px;
+   }
+   .p{
+    margin-top: 32px;
+    text-align: center;
+    margin: 5%;
+   } 
+   
+
